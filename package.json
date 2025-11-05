@@ -4,9 +4,6 @@
   "type": "module",
   "scripts": {
     "dev": "node server.js",
-    "build": "npm run build:css",
-    "build:css": "tailwindcss -i ./src/input.css -o ./public/assets/tailwind.css --minify",
-    "watch:css": "tailwindcss -i ./src/input.css -o ./public/assets/tailwind.css --watch"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
